@@ -1,5 +1,7 @@
 package br.com.E3N.abstractDocument;
 
+import br.com.E3N.abstractDocument.service.Document;
+
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
@@ -7,7 +9,7 @@ import java.util.Objects;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-public abstract class AbstractDocument implements Document{
+public abstract class AbstractDocument implements Document {
 
     private final Map<String, Object> properties;
 
@@ -17,9 +19,8 @@ public abstract class AbstractDocument implements Document{
     }
 
     @Override
-    public Void put(String key, Object object) {
+    public void put(String key, Object object) {
         this.properties.put(key, object);
-        return null;
     }
 
     @Override

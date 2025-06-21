@@ -1,6 +1,6 @@
-package br.com.E3N.abstractDocument;
+package br.com.E3N.abstractDocument.service;
 
-import java.util.Optional;
+import br.com.E3N.abstractDocument.enums.Property;
 
 public interface HasPrice extends Document {
 

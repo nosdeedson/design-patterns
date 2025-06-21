@@ -1,6 +1,8 @@
-package br.com.E3N.abstractDocument;
+package br.com.E3N.abstractDocument.service;
 
-import java.util.Optional;
+import br.com.E3N.abstractDocument.Part;
+import br.com.E3N.abstractDocument.enums.Property;
+
 import java.util.stream.Stream;
 
 public interface HasParts extends Document{
