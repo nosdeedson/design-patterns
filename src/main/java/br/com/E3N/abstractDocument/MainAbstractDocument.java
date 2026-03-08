@@ -11,6 +11,12 @@ public class MainAbstractDocument {
 
     private static final Logger LOGGER = Logger.getLogger(MainAbstractDocument.class.getName());
 
+    /**
+     * The Abstract Document Pattern allows modeling objects as flexible key-value documents (usually using a Map)
+     * and exposing their attributes through typed interfaces. This allows objects of the same type to have
+     * different properties without changing the class structure.
+     *
+     */
     public static void main(String[] args) {
         LOGGER.info("Constructing a Car with parts");
 
